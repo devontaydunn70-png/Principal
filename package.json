@@ -1,0 +1,17 @@
+{
+  "name": "principal-bot",
+  "version": "1.0.0",
+  "description": "Principal Bot - Discord server management and automation bot",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^16.6.1"
+  }
+}
